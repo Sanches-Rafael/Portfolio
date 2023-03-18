@@ -1,3 +1,5 @@
-body{
-  background-image: url(https://w7.pngwing.com/pngs/188/331/png-transparent-light-black-and-white-monochrome-graphy-atmosphere-of-earth-sky-universe-texture-atmosphere-photography-thumbnail.png);
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
