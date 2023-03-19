@@ -33,7 +33,7 @@
   margin-top: 2px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1030px) {
   *{
     padding: 0px;
     margin: 0px;
@@ -68,4 +68,22 @@
     width: 150px;
     height: 150px;
   }
+}
+
+.card:hover{
+  border: 3px solid rgb(72, 117, 177);
+  background-image: linear-gradient(rgb(173, 239, 255), rgb(214, 248, 250));
+  box-shadow: 2px 2px rgb(0, 195, 255);
+  animation-name: card;
+  animation-duration: 450ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes card {
+  to{
+  transform: translateY(15px);
+  }
+
 }
