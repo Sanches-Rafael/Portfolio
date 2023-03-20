@@ -14,9 +14,8 @@ li, a{
 .menu{
   background-color: #385A64;
   padding-right: 2vh;
-  margin-bottom: 1vh;
-  align-items: end;
-  justify-content: end;
+  align-items: center;
+  justify-content: flex-end;
   height: 50px;
 }
 
@@ -30,6 +29,7 @@ button{
 
 nav{
   display: flex;
+  align-items: center;
   justify-content: end;
   gap: 2vh;
 }
@@ -37,6 +37,8 @@ nav{
 @media (max-width: 950px) {
   .menu{
     height:max-content;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
 
   button{
@@ -59,5 +61,19 @@ a:hover{
   opacity: 0.9;
   color: #112516;
   font-size: 22px;
-  transition: all 320ms;
+  transition: all 220ms;
+  animation-name: boder;
+  animation-duration: 452ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 10ms;
+}
+
+@keyframes boder {
+  from{
+    color: rgb(118, 194, 184);
+  }
+  to{
+    color: #ffffff;
+  }
 }
