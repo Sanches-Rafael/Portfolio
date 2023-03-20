@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { from } from 'rxjs';
-import { MainComponent } from './main/main.component';
+import { AboutComponent } from './about/about.component';
+import { ConnectComponent } from './connect/connect.component';
+import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
-  { path: '', component: MainComponent },
+  { path: '', component: HeaderComponent },
+  { path: 'connect', component: ConnectComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
