@@ -17,6 +17,7 @@ li, a{
   margin-bottom: 1vh;
   align-items: end;
   justify-content: end;
+  height: 50px;
 }
 
 button{
@@ -34,6 +35,9 @@ nav{
 }
 
 @media (max-width: 950px) {
+  .menu{
+    height:max-content;
+  }
 
   button{
     display: flex;
