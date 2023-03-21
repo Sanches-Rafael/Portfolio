@@ -7,8 +7,8 @@
 }
 
 .img-box{
-  width: min-content;
-  height: 380px;
+  width: 280px;
+  height: 280px;
 }
 
 .cards{
@@ -69,6 +69,14 @@
     width: 150px;
     height: 150px;
   }
+
+  .card:hover{
+    transition: all 1s;
+    height: 300px;
+    width: 300px;
+  }
+
+
 }
 
 .card:hover{
@@ -76,4 +84,5 @@
   box-shadow: 2px 2px rgb(0, 195, 255);
   transition: all 1s;
   height: 300px;
+  width: 300px;
 }
